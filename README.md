@@ -13,7 +13,11 @@ Instalasi Node-Module Persiapkan lingkungan yang diperlukan untuk proyek ini. --
 
 ### Link GitHub
 
+https://github.com/sarifht/forum-diskusi
+
 ### Link Vercel
+
+https://forum-diskusi-two.vercel.app/
 
 ### Akun
 
