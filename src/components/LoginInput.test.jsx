@@ -38,7 +38,7 @@ describe('LoginInput component', () => {
         <LoginInput login={() => {}} />
       </BrowserRouter>
     );
-    const passwordInput = await screen.getByPlaceholderText('Masukkan Password');
+    const passwordInput = await screen.getByPlaceholderText('Masukkan Kata Sandi');
 
     // Action
     await userEvent.type(passwordInput, 'passwordtest');
@@ -58,7 +58,7 @@ describe('LoginInput component', () => {
     await userEvent.type(emailInput, 'emailtest@email.com');
     const passwordInput = await screen.getByPlaceholderText('Masukkan Password');
     await userEvent.type(passwordInput, 'passwordtest');
-    const loginButton = await screen.getByRole('button', { name: 'Login' });
+    const loginButton = await screen.getByRole('button', { name: 'Masuk' });
     // Action
     await userEvent.click(loginButton);
 
