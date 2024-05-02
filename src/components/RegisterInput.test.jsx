@@ -77,9 +77,9 @@ describe('RegisterInput component', () => {
     await userEvent.type(usernameInput, 'usernametest');
     const emailInput = await screen.getByPlaceholderText('Masukkan Email');
     await userEvent.type(emailInput, 'emailtest@email.com');
-    const passwordInput = await screen.getByPlaceholderText('Masukkan Password');
+    const passwordInput = await screen.getByPlaceholderText('Masukkan Kata Sandi');
     await userEvent.type(passwordInput, 'passwordtest');
-    const registerButton = await screen.getByRole('button', { name: 'Register' });
+    const registerButton = await screen.getByRole('button', { name: 'Daftar' });
 
     // Action
     await userEvent.click(registerButton);

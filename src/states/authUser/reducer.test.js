@@ -1,5 +1,13 @@
 import authUserReducer from './reducer';
-
+/*
+ * test scenario for authUserReducer
+ *
+ * - authUserReducer function
+ *   - should return the initial state when given by unknown action
+ *   - should return the signin authentication user when given by SET_AUTH_USER action
+ *   - should return the logout user when given by UNSET_AUTH_USER action
+ *
+ */
 describe('authUserReducer function', () => {
   it('should return the initial state when given by unknown action', () => {
     // Arrange
